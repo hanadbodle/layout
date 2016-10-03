@@ -1,0 +1,362 @@
+*{  
+	
+	padding: 0;
+	margin: 0;}
+	
+	body{
+	margin: 450px;
+	background-image: 
+	background-repeat:repeat-x;
+	margin: 0px;
+	background-color: green;
+	font-family: ;
+}
+
+
+h1{
+	
+	text-align: center;
+	border-bottom: 4px solid grey;
+
+}
+
+
+h2{
+	
+	padding: 0px;
+	margin-top: 0px;
+	line-height: 24px;
+	margin-left: 20px;
+
+}
+
+
+p{
+	
+	line-height: 12px;
+	margin-left: 20px
+
+}
+
+div.middle{
+    
+    margin-left: auto;
+    margin-right: auto;
+    background: url('gras.jpg') repeat-y;
+    background-attachment: fixed;
+    width: 750px;
+    height: auto;
+    padding-top: 1px;
+    padding: 20px;
+    padding-bottom: 300px;
+}
+
+div.top{
+	
+	text-align:left;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right:auto;
+	background-image: url(campnou.jpg);
+	background-size: cover;
+	height: 250px;
+	line-height: 40px;
+	width: 790px;
+	padding-bottom: 0px;
+
+
+}
+
+
+
+h5{
+	color: white
+	
+}
+
+
+div.left{
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 300px;
+	margin-right:300px;
+	float: right;
+	background color: blue
+
+}
+
+a{
+	
+	margin: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: brown;
+
+
+}
+	ul li{
+
+	display: inline-block;
+	margin-left: auto;
+	padding-top: 119px;
+
+}	
+
+p{
+	font-family: arial;
+	font-size:12px;
+	line-height: 18px;
+	border-bottom: 2px solid grey;
+
+
+
+}
+
+
+
+div.link{
+	
+	padding: 40px;
+	padding-left: 10px;
+}
+
+div.start{
+	
+	background-color: rgba(210,210,210,0.7);
+    width: 500px;
+    border: 1px solid green;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 115px;
+
+}
+
+div.ervaringen{
+	
+	background-color: rgba(210,210,210,0.7);
+    width: 350px;
+    padding: 50px;
+    margin: 30px;
+    text-align: left;
+    padding-bottom: px;
+    margin-left: 145px;
+}
+
+div.fifa{
+	
+	background-color: rgba(210,210,210,0.7);
+    width: 450px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 30px;
+    margin-left: 100px;
+
+}
+
+
+
+
+div.beste{
+
+	background-color: rgba(210,210,210,0.7);
+    width: 450px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 30px;
+    margin-left: 100px;
+
+
+}
+div.clubs{
+	
+	background-color: rgba(210,210,210,0.7);
+    width: 450px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 30px;
+    margin-left: 98px;
+
+
+
+}
+
+img.brasil{
+	
+	width: 300px;
+	margin-left: 100px;
+}
+
+img.messi{
+	
+	width: 250px;
+	margin-left: 100px;
+
+}
+img.psv{
+
+	width: 70px;
+
+}
+
+img.barcelona{
+
+	width: 70px;
+	margin-left: 180px;
+}
+
+img.arsenal{
+
+	width: 70px;
+	margin-left: 400px;
+
+}
+
+img.fifa17{
+	
+	width: 240px;
+
+}
+
+img.vvy{
+	
+	width: 50px;
+
+}
+
+img.reus{
+	
+	width: 150px;
+	margin-left: 125px;
+}
+
+img.messi1{
+	
+	width: 200px;
+	margin-left: 125px;
+}
+img.messi2{
+	
+	width: 200px;
+	margin-left: 125px;
+
+}
+
+img.muller{
+
+	border:2px solid black;
+	width: 150px
+
+}
+
+div.adleft{
+	position: fixed;
+	left: 0px;
+	width: 200px;
+	overflow: hidden;
+	top: 0px;
+	bottom: 0px;
+	background-color: transparent;
+	margin-top: 50%;
+	margin: 1px;
+		
+
+}
+
+img.marcelo{
+ 	border:2px solid black;
+ 	width: 150px;
+
+}
+
+div.adright{
+	
+	position: fixed;
+	right: 0px;
+	width: 200px;
+	overflow: hidden;
+	top: 0px;
+	bottom: 0px;
+	background-color: transparent;
+	margin-top: 50%;
+	margin: 1px;
+	width: 150px;
+
+}
+
+img.voetbal1{
+	
+	width:60px; 
+
+}
+
+img.voetbal2{
+
+	width: 60px;
+	margin-left: 620px;
+
+}
+
+@media(max-width: 1095px){
+	div.adright{
+		
+		position: static;
+		right: 0px;
+		width: 200px;
+		overflow: hidden;
+		top: 0px;
+		bottom: 0px;
+		background-color: transparent;
+		margin-top: 50%;
+		margin: 1px;
+		width: 150px;
+		display: inline-block;
+
+	}
+	div.adleft{
+		position: static;
+		left: 0px;
+		width: 200px;
+		overflow: hidden;
+		top: 0px;
+		bottom: 0px;
+		background-color: transparent;
+		margin-top: 50%;
+		margin: 1px;
+		display: inline-block;	
+
+	}
+
+div.middle{
+    
+	    margin-left: auto;
+	    margin-right: auto;
+	    background: url('gras.jpg') repeat-y;
+	    background-attachment: fixed;
+	    width: 75%;
+	    height: auto;
+	    padding-top: 1px;
+	    padding: 20px;
+	    padding-bottom: 300px;
+}
+
+div.top{
+		
+		text-align:left;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right:auto;
+		background-image: url(campnou.jpg);
+		background-size: cover;
+		height: 250px;
+		line-height: 40px;
+		width: 75%;
+		padding-bottom: 0px;
+
+
+}
+
